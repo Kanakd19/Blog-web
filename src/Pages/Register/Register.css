@@ -1,0 +1,48 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 50px);
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1)), url('https://cdn.dribbble.com/users/2285863/screenshots/4996990/media/d65ae53faf0b18f24c93a9c248d9657f.jpg?compress=1&resize=700x525&vertical=top');
+background-size: cover;
+}
+.registerTitle{
+    font-size: 50px;
+    color: rgb(250, 246, 246);
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm > label{
+    margin: 10px 0;
+    color: rgb(250, 246, 246);
+}
+.registerInput{
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    color: white;
+    background-color: lightcoral;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}

@@ -1,0 +1,48 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 50px);
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1)), url('https://img.freepik.com/premium-photo/modern-black-office-desk-with-office-supplies-copy-space-presentation-background_67155-21518.jpg?w=996');
+background-size: cover;
+}
+.loginTitle{
+    font-size: 50px;
+    color: rgb(250, 246, 246);
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm > label{
+    margin: 10px 0;
+    color: rgb(250, 246, 246);
+}
+.loginInput{
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    color: white;
+}
